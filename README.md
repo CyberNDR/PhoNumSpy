@@ -5,7 +5,7 @@ PhoNumSpy is an intelligence (OSINT) information gathering tool used to get the 
 
 • Phone Number Web Footprint Search
 
-• Phone Number Targeted Search on Temporary Phone Number Provider on the Internet
+• Phone Number Targeted Search on all the Temporary Phone Number Providers on the Internet
 
 • TXT Output
 # Installation
