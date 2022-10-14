@@ -80,6 +80,7 @@ fileoutput.write("\n")
 fileoutput.write("--------------------------")
 fileoutput.write("\n")
 fileoutput.write("\n")
+footprintsearch = ""
 for footprintsearch in search(lookuptarget, tld="co.in", num=10, stop=10, pause=2):
     print(f"[+] Result found on: {footprintsearch}")
     fileoutput.write(f"{footprintsearch}\n")
