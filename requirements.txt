@@ -1,5 +1,6 @@
-pip install phonenumbers
-pip install requests
-pip install pyfiglet
-pip install time
-pip install googlesearch
+phonenumbers
+requests
+pyfiglet
+time
+googlesearch
+googlesearch-python
