@@ -6,6 +6,7 @@ from googlesearch import search
 from phonenumbers.phonenumberutil import region_code_for_number
 from phonenumbers import geocoder, carrier, timezone
 import os
+import googlesearch-python
 print("\n")
 Ascii_Art = pyfiglet.figlet_format("PhoNumSpy")
 print(Ascii_Art)
