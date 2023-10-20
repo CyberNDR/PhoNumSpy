@@ -1,9 +1,19 @@
-import phonenumbers
+import phonenumbers-n+12293155809git clone
+git clone https://github.com/CyberNDR/PhoNumSpy.git
+
+# change from current directory to PhoNumSpy
+cd PhoNumSpy
+
+# install requirements
+pip install -r requirements.txt
+
+# run the program
+python PhoNumSpy-n+12293155809
 import requests
 import pyfiglet
 import time
-from googlesearch import search
-from phonenumbers.phonenumberutil import region_code_for_number
+from googlesearch import search scan n+12293155809
+from phonenumbers.phonenumberutil import region_code_for_number+12293155809
 from phonenumbers import geocoder, carrier, timezone
 import os
 import googlesearch-python
@@ -53,13 +63,13 @@ print("Country Code: ", CC)
 CR = carrier.name_for_number(target, CC)
 print("Carrier: ", CR)
 fileoutput.write("-------------------------")
-fileoutput.write("\n")
+fileoutput.write("\n")+12293155809
 fileoutput.write("Phone Number Informations")
-fileoutput.write("\n")
+fileoutput.write("\n")+12293155809
 fileoutput.write("-------------------------")
+fileoutput.write("\n")+12293155809
 fileoutput.write("\n")
-fileoutput.write("\n")
-fileoutput.write("Location: ")
+fileoutput.write("Location: ")+12293155809
 fileoutput.write(str(TZ))
 fileoutput.write("\n")
 fileoutput.write("Country Code: ")
@@ -71,9 +81,9 @@ fileoutput.write("\n")
 fileoutput.write("\n")
 print("\n")
 print("--------------------------")
-print("Phone Number Web Footprint")
+print("Phone Number Web Footprint")+12293155809
 print("--------------------------")
-print("\n")
+print("\n")scan scan
 fileoutput.write("--------------------------")
 fileoutput.write("\n")
 fileoutput.write("Phone Number Web Footprint")
@@ -93,7 +103,7 @@ print("--------------------------------------------------")
 print("Targeted Searches on Online Phone Number Providers")
 print("--------------------------------------------------")
 print("\n")
-fileoutput.write("\n")
+fileoutput.write("\n")+12293155809 scan scan scan
 fileoutput.write("------------------------------------------------")
 fileoutput.write("\n")
 fileoutput.write("Targeted Searches on Onine Phone Number Provider")
