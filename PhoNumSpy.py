@@ -1,5 +1,4 @@
-import phonenumbers+12293155809
-import requests
+import phonenumbers+12293155809irt requests
 import pyfiglet+12293155809
 import time
 from googlesearch import search+12293155809
