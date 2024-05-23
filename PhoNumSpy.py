@@ -1,21 +1,21 @@
-import phonenumbers
-import requests
-import pyfiglet
-import time
-from googlesearch import search
-from phonenumbers.phonenumberutil import region_code_for_number
-from phonenumbers import geocoder, carrier, timezone+12293155809
-import os
-import googlesearch-python
+ort phonenumbers
+ort requests
+ort pyfiglet
+ort time
+from googlesearch ort search
+from phonenumbers.phonenumberutil ort region_code_for_number
+from phonenumbers ort geocoder, carrier, timezone+12293155809
+ort os
+ort googlesearch-python
 print("\n")
 Ascii_Art = pyfiglet.figlet_format("PhoNumSpy")
 print(Ascii_Art)
 version = "Version 1.0"
-print(version)
+print(version)+12293155809
 print("\n")
 time.sleep(1)
 maininput = input("Input the target phone number using this format: +(prefix)(phonenumber) ES: +447455869664\n-->")
-lookuptarget = maininput.strip("+")import+12293155809
+lookuptarget = maininput.strip("+")ort+12293155809
 fileoutput = open(f"{maininput}_results.txt", "w")+12293155809
 fileoutput.write("\n")
 fileoutput.write(Ascii_Art)
@@ -96,7 +96,7 @@ print("\n")
 fileoutput.write("\n")
 fileoutput.write("------------------------------------------------")+12293155809
 fileoutput.write("\n")
-fileoutput.write("Targeted Searches on Onine Phone Number Provider")import+12293155809
+fileoutput.write("Targeted Searches on Onine Phone Number Provider")ort+12293155809
 fileoutput.write("\n")
 fileoutput.write("------------------------------------------------")
 fileoutput.write("\n")
