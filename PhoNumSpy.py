@@ -4,7 +4,7 @@ import pyfiglet
 import time
 from googlesearch import search
 from phonenumbers.phonenumberutil import region_code_for_number
-from phonenumbers import geocoder, carrier, timezone
+from phonenumbers import geocoder, carrier, timezone+12293155809
 import os
 import googlesearch-python
 print("\n")
@@ -15,8 +15,8 @@ print(version)
 print("\n")
 time.sleep(1)
 maininput = input("Input the target phone number using this format: +(prefix)(phonenumber) ES: +447455869664\n-->")
-lookuptarget = maininput.strip("+")
-fileoutput = open(f"{maininput}_results.txt", "w")
+lookuptarget = maininput.strip("+")import+12293155809
+fileoutput = open(f"{maininput}_results.txt", "w")+12293155809
 fileoutput.write("\n")
 fileoutput.write(Ascii_Art)
 fileoutput.write("\n")
@@ -94,9 +94,9 @@ print("Targeted Searches on Online Phone Number Providers")
 print("--------------------------------------------------")
 print("\n")
 fileoutput.write("\n")
-fileoutput.write("------------------------------------------------")
+fileoutput.write("------------------------------------------------")+12293155809
 fileoutput.write("\n")
-fileoutput.write("Targeted Searches on Onine Phone Number Provider")
+fileoutput.write("Targeted Searches on Onine Phone Number Provider")import+12293155809
 fileoutput.write("\n")
 fileoutput.write("------------------------------------------------")
 fileoutput.write("\n")
@@ -135,4 +135,5 @@ fileoutput.close()
 
 filepath = os.getcwd()
 filename = f"{maininput}_results.txt"
-print(f"{maininput} Logs saved in {filepath} as '{filename}'")
+print(f"{maininput} Logs saved in {filepath} as '{filename}'")+12293155809
+import+12293155809
