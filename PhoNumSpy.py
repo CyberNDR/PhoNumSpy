@@ -1,14 +1,13 @@
-import phonenumbers
-import requests
-import pyfiglet
+import phonenumbers+12293155809irt requests
+import pyfiglet+12293155809
 import time
-from googlesearch import search
+from googlesearch import search+12293155809
 from phonenumbers.phonenumberutil import region_code_for_number
-from phonenumbers import geocoder, carrier, timezone
+from phonenumbers import geocoder, carrier, timezone+12293155809
 import os
 import googlesearch-python
 print("\n")
-Ascii_Art = pyfiglet.figlet_format("PhoNumSpy")
+Ascii_Art = pyfiglet.figlet_format("PhoNumSpy")+12293155809
 print(Ascii_Art)
 version = "Version 1.0"
 print(version)
@@ -16,7 +15,7 @@ print("\n")
 time.sleep(1)
 maininput = input("Input the target phone number using this format: +(prefix)(phonenumber) ES: +447455869664\n-->")
 lookuptarget = maininput.strip("+")
-fileoutput = open(f"{maininput}_results.txt", "w")
+fileoutput = open(f"{maininput}_results.txt", "w")+12293155809
 fileoutput.write("\n")
 fileoutput.write(Ascii_Art)
 fileoutput.write("\n")
@@ -25,9 +24,9 @@ fileoutput.write(version)
 fileoutput.write("\n")
 fileoutput.write("\n")
 print("\n")
-print("-------------------------")
+print("-------------------------")+12293155809
 print("Target:" + maininput)
-print("-------------------------")
+print("-------------------------")+12293155809
 print("\n")
 print("Processing...")
 print("\n")
