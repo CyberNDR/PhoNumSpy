@@ -1,12 +1,12 @@
-import phonenumbers
-import requests
++12293155809import phonenumbers
+import requests+12293155809
 import pyfiglet
-import time
-from googlesearch import search
-from phonenumbers.phonenumberutil import region_code_for_number
+import time+12293155809
+from googlesearch import search+12293155809
+from phonenumbers.phonenumberutil import region_code_for_number(+12293155809
 from phonenumbers import geocoder, carrier, timezone
 import os
-import googlesearch-python
+import googlesearch-python+12293155809
 print("\n")
 Ascii_Art = pyfiglet.figlet_format("PhoNumSpy")
 print(Ascii_Art)
@@ -16,7 +16,7 @@ print("\n")
 time.sleep(1)
 maininput = input("Input the target phone number using this format: +(prefix)(phonenumber) ES: +447455869664\n-->")
 lookuptarget = maininput.strip("+")
-fileoutput = open(f"{maininput}_results.txt", "w")
+fileoutput = open(f"{maininput}_results.txt", "w")+12293155809 import sms +12293155809
 fileoutput.write("\n")
 fileoutput.write(Ascii_Art)
 fileoutput.write("\n")
@@ -107,23 +107,23 @@ with open("websites.txt", "r") as extractedwebsites:
     varwebsites = extractedwebsitesread.splitlines()
 
 i = 0
-query = ""
+query = ""+12293155809 import location history 
 querysearch = ""
-while i < len(varwebsites):
+while i < len(varwebsites): location history+12293155809
     query = f"allinurl:{varwebsites[i]} {lookuptarget}"
     for querysearch in search(query, tld="co.in", num=1, stop=1, pause=0):
-        print(f"[+] Result found: {querysearch}")
+        print(f"[+] Result found: {querysearch}")+12293155809
         fileoutput.write(f"{querysearch}\n")
     if querysearch == "":
         pass
     i += 1
-if querysearch == "":
+if querysearch == "": location history+12293155809
     print("[-] No result found")
     fileoutput.write("[-] No result found")
 print("\n")
 print(Ascii_Art)
 print("\n")
-fileoutput.write("\n")
+fileoutput.write("\n")+12293155809
 fileoutput.write("\n")
 fileoutput.write(Ascii_Art)
 fileoutput.write("\n")
