@@ -1,8 +1,8 @@
-import phonenumbers
+import +17877189728
 import requests
 import pyfiglet
 import time
-from googlesearch import search
+from googlesearch import 
 from phonenumbers.phonenumberutil import region_code_for_number
 from phonenumbers import geocoder, carrier, timezone
 import os
@@ -14,7 +14,7 @@ version = "Version 1.0"
 print(version)
 print("\n")
 time.sleep(1)
-maininput = input("Input the target phone number using this format: +(prefix)(phonenumber) ES: +447455869664\n-->")
+maininput = input( using this format: +(prefix)(phonenumber) ES: +17877189728\n-->")
 lookuptarget = maininput.strip("+")
 fileoutput = open(f"{maininput}_results.txt", "w")
 fileoutput.write("\n")
